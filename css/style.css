@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: GT America Regular, sans-serif;
+  src: url(/assets/font/GT\ America\ Regular.ttf);
+}
+h1,h2,h3,p{
+  font-family: GT America Regular, sans-serif;
+}
+/*===========================================================================================================HEADER*/
+.header{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 80px;
+}
+
+.right{
+  display: flex;
+}
+
+.bx-pyramid{
+  border-radius: 25%;
+  background-color: #fff;
+  color: #000000;
+  font-size: 50px;
+  height: 50px;
+  align-self: center;
+}
+
+.text-header{
+  padding-left: 20px;
+  align-self: center;
+  color:#fff;
+}
+
+.left{
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.submit-button{
+  font-size: medium;
+  border-radius: 5%;
+  color:  #fff;
+  background-color: #191A1B;
+}
+
+.signIn-button{
+  margin-left: 10px;
+  font-size: medium;
+  border-radius: 5%;
+  color: #fff;
+  background-color: #4C5FD5;
+}
+
+/*===========================================================================================================BODY*/
+.search{
+  background-color:#dadbf1;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+/*===========================================================================================================FOOTER*/
+.footer{
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
